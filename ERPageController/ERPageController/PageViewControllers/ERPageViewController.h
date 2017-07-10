@@ -42,7 +42,6 @@
 - (NSString *)pageViewController:(ERPageViewController *)pageViewController titleForChildControllerAtIndex:(NSInteger)index;
 
 
-
 @end
 
 

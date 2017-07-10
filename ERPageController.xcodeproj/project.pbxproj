@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D85CD4861F13650700CE5640 /* EditMenuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D85CD4761F13650700CE5640 /* EditMenuCollectionViewCell.m */; };
+		D85CD4871F13650700CE5640 /* EditMenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85CD4771F13650700CE5640 /* EditMenuCollectionViewCell.xib */; };
+		D85CD4881F13650700CE5640 /* ERSegmentMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85CD4791F13650700CE5640 /* ERSegmentMenuController.m */; };
+		D85CD4891F13650700CE5640 /* LXReorderableCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D85CD47B1F13650700CE5640 /* LXReorderableCollectionViewFlowLayout.m */; };
+		D85CD48A1F13650700CE5640 /* SectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D85CD47D1F13650700CE5640 /* SectionHeader.m */; };
+		D85CD48B1F13650700CE5640 /* ERPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85CD4801F13650700CE5640 /* ERPageViewController.m */; };
+		D85CD48C1F13650700CE5640 /* ERSegmentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D85CD4821F13650700CE5640 /* ERSegmentCollectionViewCell.m */; };
+		D85CD48D1F13650700CE5640 /* ERSegmentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85CD4831F13650700CE5640 /* ERSegmentCollectionViewCell.xib */; };
+		D85CD48E1F13650700CE5640 /* ERSegmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85CD4851F13650700CE5640 /* ERSegmentController.m */; };
 		D8F7C8111F0F5E5B000DB0E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C8101F0F5E5B000DB0E7 /* main.m */; };
 		D8F7C8141F0F5E5B000DB0E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C8131F0F5E5B000DB0E7 /* AppDelegate.m */; };
 		D8F7C8171F0F5E5B000DB0E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C8161F0F5E5B000DB0E7 /* ViewController.m */; };
@@ -15,15 +24,6 @@
 		D8F7C81F1F0F5E5B000DB0E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F7C81D1F0F5E5B000DB0E7 /* LaunchScreen.storyboard */; };
 		D8F7C82A1F0F5E5B000DB0E7 /* ERPageControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C8291F0F5E5B000DB0E7 /* ERPageControllerTests.m */; };
 		D8F7C8351F0F5E5B000DB0E7 /* ERPageControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C8341F0F5E5B000DB0E7 /* ERPageControllerUITests.m */; };
-		D8F7C8551F0F5EA1000DB0E7 /* EditMenuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C8451F0F5EA1000DB0E7 /* EditMenuCollectionViewCell.m */; };
-		D8F7C8561F0F5EA1000DB0E7 /* EditMenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8F7C8461F0F5EA1000DB0E7 /* EditMenuCollectionViewCell.xib */; };
-		D8F7C8571F0F5EA1000DB0E7 /* ERSegmentMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C8481F0F5EA1000DB0E7 /* ERSegmentMenuController.m */; };
-		D8F7C8581F0F5EA1000DB0E7 /* LXReorderableCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C84A1F0F5EA1000DB0E7 /* LXReorderableCollectionViewFlowLayout.m */; };
-		D8F7C8591F0F5EA1000DB0E7 /* SectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C84C1F0F5EA1000DB0E7 /* SectionHeader.m */; };
-		D8F7C85A1F0F5EA1000DB0E7 /* ERPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C84F1F0F5EA1000DB0E7 /* ERPageViewController.m */; };
-		D8F7C85B1F0F5EA1000DB0E7 /* ERSegmentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C8511F0F5EA1000DB0E7 /* ERSegmentCollectionViewCell.m */; };
-		D8F7C85C1F0F5EA1000DB0E7 /* ERSegmentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8F7C8521F0F5EA1000DB0E7 /* ERSegmentCollectionViewCell.xib */; };
-		D8F7C85D1F0F5EA1000DB0E7 /* ERSegmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C8541F0F5EA1000DB0E7 /* ERSegmentController.m */; };
 		D8F7C8661F0F60B8000DB0E7 /* PageFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C85F1F0F60B8000DB0E7 /* PageFourViewController.m */; };
 		D8F7C8671F0F60B8000DB0E7 /* PageOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C8611F0F60B8000DB0E7 /* PageOneViewController.m */; };
 		D8F7C8681F0F60B8000DB0E7 /* PageThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C8631F0F60B8000DB0E7 /* PageThreeViewController.m */; };
@@ -48,6 +48,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D85CD4751F13650700CE5640 /* EditMenuCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditMenuCollectionViewCell.h; sourceTree = "<group>"; };
+		D85CD4761F13650700CE5640 /* EditMenuCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditMenuCollectionViewCell.m; sourceTree = "<group>"; };
+		D85CD4771F13650700CE5640 /* EditMenuCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditMenuCollectionViewCell.xib; sourceTree = "<group>"; };
+		D85CD4781F13650700CE5640 /* ERSegmentMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERSegmentMenuController.h; sourceTree = "<group>"; };
+		D85CD4791F13650700CE5640 /* ERSegmentMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERSegmentMenuController.m; sourceTree = "<group>"; };
+		D85CD47A1F13650700CE5640 /* LXReorderableCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXReorderableCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		D85CD47B1F13650700CE5640 /* LXReorderableCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXReorderableCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		D85CD47C1F13650700CE5640 /* SectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeader.h; sourceTree = "<group>"; };
+		D85CD47D1F13650700CE5640 /* SectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeader.m; sourceTree = "<group>"; };
+		D85CD47F1F13650700CE5640 /* ERPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERPageViewController.h; sourceTree = "<group>"; };
+		D85CD4801F13650700CE5640 /* ERPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERPageViewController.m; sourceTree = "<group>"; };
+		D85CD4811F13650700CE5640 /* ERSegmentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERSegmentCollectionViewCell.h; sourceTree = "<group>"; };
+		D85CD4821F13650700CE5640 /* ERSegmentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERSegmentCollectionViewCell.m; sourceTree = "<group>"; };
+		D85CD4831F13650700CE5640 /* ERSegmentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ERSegmentCollectionViewCell.xib; sourceTree = "<group>"; };
+		D85CD4841F13650700CE5640 /* ERSegmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERSegmentController.h; sourceTree = "<group>"; };
+		D85CD4851F13650700CE5640 /* ERSegmentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERSegmentController.m; sourceTree = "<group>"; };
 		D8F7C80C1F0F5E5B000DB0E7 /* ERPageController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ERPageController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F7C8101F0F5E5B000DB0E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8F7C8121F0F5E5B000DB0E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,22 +80,6 @@
 		D8F7C8301F0F5E5B000DB0E7 /* ERPageControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ERPageControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F7C8341F0F5E5B000DB0E7 /* ERPageControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERPageControllerUITests.m; sourceTree = "<group>"; };
 		D8F7C8361F0F5E5B000DB0E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8F7C8441F0F5EA1000DB0E7 /* EditMenuCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditMenuCollectionViewCell.h; sourceTree = "<group>"; };
-		D8F7C8451F0F5EA1000DB0E7 /* EditMenuCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditMenuCollectionViewCell.m; sourceTree = "<group>"; };
-		D8F7C8461F0F5EA1000DB0E7 /* EditMenuCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditMenuCollectionViewCell.xib; sourceTree = "<group>"; };
-		D8F7C8471F0F5EA1000DB0E7 /* ERSegmentMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERSegmentMenuController.h; sourceTree = "<group>"; };
-		D8F7C8481F0F5EA1000DB0E7 /* ERSegmentMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERSegmentMenuController.m; sourceTree = "<group>"; };
-		D8F7C8491F0F5EA1000DB0E7 /* LXReorderableCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXReorderableCollectionViewFlowLayout.h; sourceTree = "<group>"; };
-		D8F7C84A1F0F5EA1000DB0E7 /* LXReorderableCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXReorderableCollectionViewFlowLayout.m; sourceTree = "<group>"; };
-		D8F7C84B1F0F5EA1000DB0E7 /* SectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeader.h; sourceTree = "<group>"; };
-		D8F7C84C1F0F5EA1000DB0E7 /* SectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeader.m; sourceTree = "<group>"; };
-		D8F7C84E1F0F5EA1000DB0E7 /* ERPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERPageViewController.h; sourceTree = "<group>"; };
-		D8F7C84F1F0F5EA1000DB0E7 /* ERPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERPageViewController.m; sourceTree = "<group>"; };
-		D8F7C8501F0F5EA1000DB0E7 /* ERSegmentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERSegmentCollectionViewCell.h; sourceTree = "<group>"; };
-		D8F7C8511F0F5EA1000DB0E7 /* ERSegmentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERSegmentCollectionViewCell.m; sourceTree = "<group>"; };
-		D8F7C8521F0F5EA1000DB0E7 /* ERSegmentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ERSegmentCollectionViewCell.xib; sourceTree = "<group>"; };
-		D8F7C8531F0F5EA1000DB0E7 /* ERSegmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERSegmentController.h; sourceTree = "<group>"; };
-		D8F7C8541F0F5EA1000DB0E7 /* ERSegmentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERSegmentController.m; sourceTree = "<group>"; };
 		D8F7C85E1F0F60B8000DB0E7 /* PageFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageFourViewController.h; sourceTree = "<group>"; };
 		D8F7C85F1F0F60B8000DB0E7 /* PageFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageFourViewController.m; sourceTree = "<group>"; };
 		D8F7C8601F0F60B8000DB0E7 /* PageOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageOneViewController.h; sourceTree = "<group>"; };
@@ -115,6 +115,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D85CD4731F13650700CE5640 /* ERPageController */ = {
+			isa = PBXGroup;
+			children = (
+				D85CD4741F13650700CE5640 /* EditMenuControllers */,
+				D85CD47E1F13650700CE5640 /* PageViewControllers */,
+			);
+			path = ERPageController;
+			sourceTree = "<group>";
+		};
+		D85CD4741F13650700CE5640 /* EditMenuControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D85CD4751F13650700CE5640 /* EditMenuCollectionViewCell.h */,
+				D85CD4761F13650700CE5640 /* EditMenuCollectionViewCell.m */,
+				D85CD4771F13650700CE5640 /* EditMenuCollectionViewCell.xib */,
+				D85CD4781F13650700CE5640 /* ERSegmentMenuController.h */,
+				D85CD4791F13650700CE5640 /* ERSegmentMenuController.m */,
+				D85CD47A1F13650700CE5640 /* LXReorderableCollectionViewFlowLayout.h */,
+				D85CD47B1F13650700CE5640 /* LXReorderableCollectionViewFlowLayout.m */,
+				D85CD47C1F13650700CE5640 /* SectionHeader.h */,
+				D85CD47D1F13650700CE5640 /* SectionHeader.m */,
+			);
+			path = EditMenuControllers;
+			sourceTree = "<group>";
+		};
+		D85CD47E1F13650700CE5640 /* PageViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D85CD47F1F13650700CE5640 /* ERPageViewController.h */,
+				D85CD4801F13650700CE5640 /* ERPageViewController.m */,
+				D85CD4811F13650700CE5640 /* ERSegmentCollectionViewCell.h */,
+				D85CD4821F13650700CE5640 /* ERSegmentCollectionViewCell.m */,
+				D85CD4831F13650700CE5640 /* ERSegmentCollectionViewCell.xib */,
+				D85CD4841F13650700CE5640 /* ERSegmentController.h */,
+				D85CD4851F13650700CE5640 /* ERSegmentController.m */,
+			);
+			path = PageViewControllers;
+			sourceTree = "<group>";
+		};
 		D8F7C8031F0F5E5B000DB0E7 = {
 			isa = PBXGroup;
 			children = (
@@ -138,7 +177,7 @@
 		D8F7C80E1F0F5E5B000DB0E7 /* ERPageController */ = {
 			isa = PBXGroup;
 			children = (
-				D8F7C8421F0F5EA1000DB0E7 /* Classes */,
+				D85CD4731F13650700CE5640 /* ERPageController */,
 				D8F7C8121F0F5E5B000DB0E7 /* AppDelegate.h */,
 				D8F7C8131F0F5E5B000DB0E7 /* AppDelegate.m */,
 				D8F7C8151F0F5E5B000DB0E7 /* ViewController.h */,
@@ -184,45 +223,6 @@
 				D8F7C8361F0F5E5B000DB0E7 /* Info.plist */,
 			);
 			path = ERPageControllerUITests;
-			sourceTree = "<group>";
-		};
-		D8F7C8421F0F5EA1000DB0E7 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D8F7C84D1F0F5EA1000DB0E7 /* PageViewControllers */,
-				D8F7C8431F0F5EA1000DB0E7 /* EditMenuControllers */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		D8F7C8431F0F5EA1000DB0E7 /* EditMenuControllers */ = {
-			isa = PBXGroup;
-			children = (
-				D8F7C8471F0F5EA1000DB0E7 /* ERSegmentMenuController.h */,
-				D8F7C8481F0F5EA1000DB0E7 /* ERSegmentMenuController.m */,
-				D8F7C8441F0F5EA1000DB0E7 /* EditMenuCollectionViewCell.h */,
-				D8F7C8451F0F5EA1000DB0E7 /* EditMenuCollectionViewCell.m */,
-				D8F7C8461F0F5EA1000DB0E7 /* EditMenuCollectionViewCell.xib */,
-				D8F7C8491F0F5EA1000DB0E7 /* LXReorderableCollectionViewFlowLayout.h */,
-				D8F7C84A1F0F5EA1000DB0E7 /* LXReorderableCollectionViewFlowLayout.m */,
-				D8F7C84B1F0F5EA1000DB0E7 /* SectionHeader.h */,
-				D8F7C84C1F0F5EA1000DB0E7 /* SectionHeader.m */,
-			);
-			path = EditMenuControllers;
-			sourceTree = "<group>";
-		};
-		D8F7C84D1F0F5EA1000DB0E7 /* PageViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				D8F7C84E1F0F5EA1000DB0E7 /* ERPageViewController.h */,
-				D8F7C84F1F0F5EA1000DB0E7 /* ERPageViewController.m */,
-				D8F7C8501F0F5EA1000DB0E7 /* ERSegmentCollectionViewCell.h */,
-				D8F7C8511F0F5EA1000DB0E7 /* ERSegmentCollectionViewCell.m */,
-				D8F7C8521F0F5EA1000DB0E7 /* ERSegmentCollectionViewCell.xib */,
-				D8F7C8531F0F5EA1000DB0E7 /* ERSegmentController.h */,
-				D8F7C8541F0F5EA1000DB0E7 /* ERSegmentController.m */,
-			);
-			path = PageViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,8 +335,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8F7C81F1F0F5E5B000DB0E7 /* LaunchScreen.storyboard in Resources */,
-				D8F7C85C1F0F5EA1000DB0E7 /* ERSegmentCollectionViewCell.xib in Resources */,
-				D8F7C8561F0F5EA1000DB0E7 /* EditMenuCollectionViewCell.xib in Resources */,
+				D85CD48D1F13650700CE5640 /* ERSegmentCollectionViewCell.xib in Resources */,
+				D85CD4871F13650700CE5640 /* EditMenuCollectionViewCell.xib in Resources */,
 				D8F7C81C1F0F5E5B000DB0E7 /* Assets.xcassets in Resources */,
 				D8F7C81A1F0F5E5B000DB0E7 /* Main.storyboard in Resources */,
 			);
@@ -363,19 +363,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8F7C8581F0F5EA1000DB0E7 /* LXReorderableCollectionViewFlowLayout.m in Sources */,
+				D85CD4891F13650700CE5640 /* LXReorderableCollectionViewFlowLayout.m in Sources */,
 				D8F7C8661F0F60B8000DB0E7 /* PageFourViewController.m in Sources */,
-				D8F7C8591F0F5EA1000DB0E7 /* SectionHeader.m in Sources */,
+				D85CD4861F13650700CE5640 /* EditMenuCollectionViewCell.m in Sources */,
+				D85CD48A1F13650700CE5640 /* SectionHeader.m in Sources */,
+				D85CD48C1F13650700CE5640 /* ERSegmentCollectionViewCell.m in Sources */,
 				D8F7C8171F0F5E5B000DB0E7 /* ViewController.m in Sources */,
 				D8F7C8671F0F60B8000DB0E7 /* PageOneViewController.m in Sources */,
-				D8F7C8551F0F5EA1000DB0E7 /* EditMenuCollectionViewCell.m in Sources */,
 				D8F7C8691F0F60B8000DB0E7 /* PageTwoViewController.m in Sources */,
-				D8F7C85A1F0F5EA1000DB0E7 /* ERPageViewController.m in Sources */,
-				D8F7C8571F0F5EA1000DB0E7 /* ERSegmentMenuController.m in Sources */,
-				D8F7C85D1F0F5EA1000DB0E7 /* ERSegmentController.m in Sources */,
 				D8F7C8681F0F60B8000DB0E7 /* PageThreeViewController.m in Sources */,
+				D85CD48B1F13650700CE5640 /* ERPageViewController.m in Sources */,
+				D85CD4881F13650700CE5640 /* ERSegmentMenuController.m in Sources */,
 				D8F7C8141F0F5E5B000DB0E7 /* AppDelegate.m in Sources */,
-				D8F7C85B1F0F5EA1000DB0E7 /* ERSegmentCollectionViewCell.m in Sources */,
+				D85CD48E1F13650700CE5640 /* ERSegmentController.m in Sources */,
 				D8F7C8111F0F5E5B000DB0E7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -616,6 +616,7 @@
 				D8F7C83B1F0F5E5B000DB0E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8F7C83C1F0F5E5B000DB0E7 /* Build configuration list for PBXNativeTarget "ERPageControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -624,6 +625,7 @@
 				D8F7C83E1F0F5E5B000DB0E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8F7C83F1F0F5E5B000DB0E7 /* Build configuration list for PBXNativeTarget "ERPageControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -632,6 +634,7 @@
 				D8F7C8411F0F5E5B000DB0E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
