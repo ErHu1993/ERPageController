@@ -5,7 +5,7 @@
 
 <br/>
 
-![gif](http://upload-images.jianshu.io/upload_images/2773241-1cde008a1ef9eca2.gif?imageMogr2/auto-orient/strip)
+![gif](http://upload-images.jianshu.io/upload_images/2773241-c8f9682d4e7de898.gif?imageMogr2/auto-orient/strip)
 
 ### 使用方法:
 
