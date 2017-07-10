@@ -5,7 +5,7 @@
 
 <br/>
 
-![gif](http://www.code4app.com/data/attachment/forum/201707/07/153006zi63kbnk68ttw74r.gif)
+![gif](http://upload-images.jianshu.io/upload_images/2773241-1cde008a1ef9eca2.gif?imageMogr2/auto-orient/strip)
 
 ### 使用方法:
 
