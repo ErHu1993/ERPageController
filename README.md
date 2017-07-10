@@ -71,7 +71,7 @@
 
 ```
 
-##### 通过 menuDataSource 获取编辑菜单的数据源,如不需要则不用设置该代理
+### 通过 menuDataSource 获取编辑菜单的数据源,如不需要则不用设置该代理
 
 ```
 @protocol ERSegmentMenuControllerDataSource <NSObject>
@@ -111,7 +111,7 @@
 
 ```
 
-##### delegate 可以获取点击事件(双击导航条item)已经滚动事件的回调,用于自定义处理
+### delegate 可以获取点击事件(双击导航条item)已经滚动事件的回调,用于自定义处理
 
 ```
 @protocol ERSegmentControllerDelegte <NSObject>
