@@ -3,6 +3,10 @@
 
 ## 带编辑菜单的分页选择器
 
+### 功能说明:
+##### 页面为不同的ViewController,可以左右滑动.
+##### 顶部导航条可点击切换(双击刷新事件回调),可以左右滑动查看.
+##### 按需显示的编辑菜单,可以长按拖动顺序/添加/删除
 <br/>
 
 ![gif](http://upload-images.jianshu.io/upload_images/2773241-c8f9682d4e7de898.gif?imageMogr2/auto-orient/strip)
