@@ -35,9 +35,16 @@ static NSString *segmentCellIdentifier = @"ERSegmentCollectionViewCell";
 
 @implementation ERSegmentController
 
+- (instancetype)init {
+    if (self = [super init]) {
+        [self configirePropertys];
+    }
+    return self;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self configirePropertys];
 }
 
 #pragma mark - 初始化属性配置

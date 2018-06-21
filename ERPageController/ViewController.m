@@ -9,6 +9,10 @@
 #import "ViewController.h"
 #import "ERSegmentController.h"
 
+#define  isIPhoneX (([UIScreen mainScreen].bounds.size.width == 375.f || [UIScreen mainScreen].bounds.size.width == 812.f) && ([UIScreen mainScreen].bounds.size.height == 375.f || [UIScreen mainScreen].bounds.size.height == 812.f) ? YES : NO)
+#define  TabbarSafeBottomMargin         (isIPhoneX ? 34.f : 0.f)
+#define  NavigationSafeTopMargin         (isIPhoneX ? 24.f : 0.f)
+
 @interface ViewController ()<ERPageViewControllerDataSource,ERSegmentControllerDelegte,ERSegmentMenuControllerDataSource>
 
 @property (nonatomic, strong) NSMutableArray <NSDictionary *> *displayArray;
@@ -57,7 +61,7 @@
 - (void)addPageController{
     
     ERSegmentController *pageVC = [[ERSegmentController alloc] init];
-    pageVC.view.frame = CGRectMake(CGRectGetMinX(self.view.frame), CGRectGetMinY(self.view.frame) + 20, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame) - 20);
+    pageVC.view.frame = CGRectMake(CGRectGetMinX(self.view.frame), NavigationSafeTopMargin + CGRectGetMinY(self.view.frame) + 20, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame) - 20);
     pageVC.segmentHeight = 25;
     pageVC.progressWidth = 15;
     pageVC.progressHeight = 1;
@@ -139,7 +143,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    
 }
 
 

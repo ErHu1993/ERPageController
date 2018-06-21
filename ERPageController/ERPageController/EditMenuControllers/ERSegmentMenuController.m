@@ -41,7 +41,9 @@ UICollectionViewDelegateFlowLayout
 
 - (void)refreshContentData{
     self.selectedChannelList = [self.dataSource selectedChannelLisInSegmentMenuController:self];
-    self.unSelectChannelList = [self.dataSource unSelectChannelListInSegmentMenuController:self];
+    if ([self.dataSource respondsToSelector:@selector(unSelectChannelListInSegmentMenuController:)]) {
+        self.unSelectChannelList = [self.dataSource unSelectChannelListInSegmentMenuController:self];
+    }
     [self.collectionView reloadData];
 }
 
