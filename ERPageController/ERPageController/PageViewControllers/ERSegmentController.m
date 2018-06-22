@@ -82,13 +82,14 @@ static NSString *segmentCellIdentifier = @"ERSegmentCollectionViewCell";
     btn.selected = !btn.selected;
     
     if ([self.delegate respondsToSelector:@selector(segmentController:didSelectEditMenuButton:)]) {
+        // 存在回调则自定义点击事件, 否则弹出菜单  这里按需求自行修改
         [self.delegate segmentController:self didSelectEditMenuButton:btn];
-    }
-    
-    if (btn.selected) {
-        [self showMenuViewController];
-    }else{
-        [self hideMenuViewController];
+    } else {
+        if (btn.selected) {
+            [self showMenuViewController];
+        }else{
+            [self hideMenuViewController];
+        }
     }
 }
 
